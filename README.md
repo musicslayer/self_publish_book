@@ -12,6 +12,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 [Creation Software](https://github.com/musicslayer/self_publish/blob/main/README.md#creation-software)<br/>
 [Validation Software](https://github.com/musicslayer/self_publish/blob/main/README.md#validation-software)<br/>
 [Steps to Make a Book](https://github.com/musicslayer/self_publish/blob/main/README.md#steps-to-make-a-book)<br/>
+[Barcodes](https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes)<br/>
 [Additional Tips](https://github.com/musicslayer/self_publish/blob/main/README.md#additional-tips)
 
 ## My Novels
@@ -203,6 +204,35 @@ Once the Word document is 100% finished, then you "print" it to a PDF file using
 
 > [!CAUTION]
 > If you obtain copyright protection, your legal name and your pseudonym will be tied together, meaning you can't stay anonymous. Anyone can look up your book and see the two names connected to each other.
+
+## Barcodes
+All physical books will need an ISBN 13 barcode printed on the front or back cover. Allowing Amazon to automatically add the barcode for you is by far the easiest option, however there may be situations where you wish to provide your own barcode. For example, in my latest book, "Defect", the Amazon-provided barcode would have covered up the gravestone poem, so I instead opted to place the barcode on the cover art myself.
+
+Unfortunately, using your own barcode can be a complicated process. The steps below outline how you can do this without too much hassle and without spending any money.
+
+### Getting an ISBN 13 number
+As mentioned above, you can either purchase one yourself, or use the free one Amazon provides. Either way, you will end up with a thirteen-digit number.
+
+### Getting an ISBN 13 barcode
+Use the following websites to get the barcode:<br/>
+https://bookow.com/resources.php#isbn-hyphenator to properly hyphenate the ISBN 13 number.<br/>
+https://bookow.com/resources.php#isbn-barcode-generator<br/><br/>
+For the price, I recommend entering 90000 ("no set price") to match what Amazon would use, or else enter your actual price.<br/><br/>
+Make sure to download as a PDF so that the barcode is a vector image.
+
+### Scaling the barcode
+When you download the barcode PDF, you cannot decide what physical dimensions it will have. The following website allows you to adjust the PDF file to be whatever size you would like.<br/>
+I recommend using a width of 2in and a height of 1.2in since that's what Amazon uses and recommends.<br/>
+
+### Inserting the barcode into the cover art
+Open up the cover art in your favorite PDF editor software (such as PDF-Exchange Editor) and decide where you would like to place the barcode, making sure to follow Amazon's placement requirements.<br/><br/>
+The easiest way to do this is to insert the barcode as a stamp, which is essentially a type of comment. This lets you easily move around the barcode image and position it exactly where you would like it.<br/><br/>
+Once you have decided on a position, save the PDF.
+
+### Flattening the cover art
+If you upload the cover art to Amazon now, the stamp will be discarded as an unprintable annotation. Thus, we first need to flatten the PDF.<br/><br/>
+You can use PDF24 Creator or whichever software you prefer to do this. The result will be an identical PDF file, except this time the barcode will simply be part of the artwork and not a separate entity. This is the PDF that you will upload to Amazon as the cover art.<br/><br/>
+To validate that the barcode is still a vector graphic, zoom in by a large amount, say 600%, and make sure that the barcode does not have any fuzziness or bluriness. A true vector image should remain sharp no matter how much you zoom in.
 
 ## Additional Tips
 ### Supported e-readers
