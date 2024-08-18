@@ -275,7 +275,7 @@ Once the e-book is 100% finished, proofread, etc. and you are sure you won't mak
 Once the Word document is 100% finished, then you "print" the manuscript to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
 
 ### Cover File
-In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. See the section "Cover File" below for tips on creating this.
+In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. See the section [Cover File](#cover-file-2) for tips on creating this.
 	
 ### Upload
 Upload to Google and Amazon.
@@ -307,7 +307,7 @@ Generally, I recommend using Canva for this. You can upload the template file di
 When you upload your physical book to Amazon, one of the steps will be to view your cover file and manuscript in their previewer. In particular, the cover file will be displayed along with guidelines that allow you to double-check that all of your artwork is within the intended bounds.
 
 ### Adding a barcode
-Usually Amazon does this for us, but see the "Barcode" section below for information about creating your own barcode and adding it to the cover art.
+Usually Amazon does this for us, but see the [Barcodes](barcodes-1) section for information about creating your own barcode and adding it to the cover art.
 
 ## Barcodes
 Allowing Amazon to automatically add the barcode to the cover art for you is by far the easiest option, however there may be situations where you wish to provide your own barcode. For example, in my latest book, "Defect", the Amazon-provided barcode would have covered up the gravestone poem, so I instead opted to place the barcode on the cover art myself.
