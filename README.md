@@ -50,7 +50,7 @@ The individual files inside an EPUB can be extracted (for example using 7-Zip), 
 For a physical book, this is everything other than the front cover, back cover, and spine. It is everything that will be printed on regular paper i.e. front matter, body, and back matter.<br/><br/>
 This should be a PDF file, although a Word document may be a useful intermediary since it is easier to edit.
 
-### Parts of book
+### Parts of a Book
 A book is split into three potential parts: front matter, body, and back matter. Only the body is required to be present.
 - The front matter may contains things like the Title Page, Table of Contents, and Dedications sections.<br/>
 - The body is your book's actual content.<br/>
