@@ -20,41 +20,43 @@ Disclaimer: This guide is meant to provide general information based on my perso
 	<ul>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels">My Novels</a>
 			<ul>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#finding-venus">Finding Venus</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#defect">Defect</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#finding-venus">Finding Venus</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#defect">Defect</a></li>
 			</ul>
 		</li>
   		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#definitions">Definitions</a>
 			<ul>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#cover-file">Cover File</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#css-file">CSS file</a></li>
-    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#epub-file">EPUB file</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#manuscript">Manuscript</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#parts-of-a-book">Parts of a Book</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#trim-size">Trim Size</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#xhtml-file">XHTML file</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#cover-file">Cover File</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#css-file">CSS file</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#epub-file">EPUB file</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#manuscript">Manuscript</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#parts-of-a-book">Parts of a Book</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#trim-size">Trim Size</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#xhtml-file">XHTML file</a></li>
 			</ul>
 		</li>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#software">Software</a>
 			<ul>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#creation">Creation</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#validation">Validation</a></li>
-    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#barcodes">Barcodes</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#other-resources">Other Resources</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#creation">Creation</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#validation">Validation</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes">Barcodes</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#other-resources">Other Resources</a></li>
 			</ul>
 		</li>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#steps-to-make-a-book">Steps to Make a Book</a>
 			<ul>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#pseudonym">Pseudonym</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#validation">ISBN</a></li>
-    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#e-book">E-book</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#word-document">Word Document</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#pdf-file">PDF File</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#upload">Upload</a></li>
-				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#copyright-protection">Copyright Protection</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#pseudonym">Pseudonym</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#isbn">ISBN</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#e-book">E-book</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#word-document">Word Document</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#pdf-file">PDF File</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#upload">Upload</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#copyright-protection">Copyright Protection</a></li>
 			</ul>
 		</li>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes-1">Barcodes</a></li>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#additional-tips">Additional Tips</a></li>
 	</ul>
 </div>
 
