@@ -91,10 +91,11 @@ Within an EPUB file, these files are where all of the content is contained. For 
 The following software may be useful when creating your book.
 
 #### Sigil
-https://sigil-ebook.com/<br/>
+https://sigil-ebook.com<br/>
 This is where you create the EPUB file for your e-book.
 
 #### Microsoft Word
+https://www.microsoft.com/en-us/microsoft-365/word<br/>
 Used to create/edit the manuscript before it gets converted to a PDF file.<br/><br/>
 Personally, I've only used Microsoft Word 2007 so your mileage may vary if you try a more modern version or any of the free alternatives (Google Docs, Libre Office, etc.).
 
@@ -158,12 +159,12 @@ https://pdf-xchange.eu/pdf-xchange-editor/<br/>
 Amongst other features, you can open one PDF, and then insert another PDF as a "stamp" (a type of annotation or comment) while maintaining it's original physical dimenstions. I use this to stamp the barcode onto the cover art.
 
 #### PDF24 Creator
-https://www.pdf24.org/en/<br/>
+https://www.pdf24.org/en<br/>
 Provides many PDF tools, but in particular can flatten a PDF. This means that the comments/annotations will become embedded in the PDF instead of remaining separate entities.
 
 ### Other Resources
 #### Fonts
-https://fonts.google.com/<br/>
+https://fonts.google.com<br/>
 Contains high-quality, royalty-free fonts.
 
 #### Copyright
@@ -171,11 +172,11 @@ https://eservice.eco.loc.gov/siebel/app/eservice/enu?SWECmd=Login&SWECM=S&SWEHo=
 The Electronic Copyright Office, where you can apply for copyright protection.
 
 #### Snappa
-https://snappa.com/<br/>
+https://snappa.com<br/>
 Good for getting royalty-free artwork.
 
 #### Canva
-https://www.canva.com/<br/>
+https://www.canva.com<br/>
 Good for manipulating/formatting images.
 			
 #### QuillBot
@@ -183,8 +184,8 @@ https://quillbot.com/grammar-check<br/>
 Good for quickly checking your grammar/spelling.<br/>
 
 #### Thesaurus and RhymeZone
-https://www.thesaurus.com/<br/>
-https://www.rhymezone.com/<br/>
+https://www.thesaurus.com<br/>
+https://www.rhymezone.com<br/>
 Useful tools when writing poetry.
 
 ## Steps to Make a Book
@@ -484,10 +485,10 @@ You can only customize the spine of your book if it is thick enough i.e. it has 
 Amazon:<br/>
 [KDP Bookshelf](https://kdp.amazon.com/en_US/bookshelf)<br/>
 This is where you start the process of uploading your books to Amazon Kindle.<br/><br/>
-[KDP Help Center Home](https://kdp.amazon.com/en_US/help/)<br/>
+[KDP Help Center Home](https://kdp.amazon.com/en_US/help)<br/>
 Various requirements and advice from Amazon for publishing a book with them.<br/><br/>
 Google:<br/>
-[Google Play Books Partner Center](https://play.google.com/books/publish/)<br/>
+[Google Play Books Partner Center](https://play.google.com/books/publish)<br/>
 This is where you start the process of uploading your books to Google Play.<br/><br/>
 [Google Play Books Partner Center Help](https://support.google.com/books/partner)<br/>
 Various requirements and advice from Google for publishing a book with them.<br/><br/>
