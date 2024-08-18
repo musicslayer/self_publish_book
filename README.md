@@ -9,24 +9,8 @@ Disclaimer: This guide is meant to provide general information based on my perso
 ## Table of Contents
 <div id="user-content-toc">
 	<ul>
-		<li><a href="#my-novels">My Novels</a>
-			<ul>
-				<li><a href="#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
-				<li><a href="#finding-venus">Finding Venus</a></li>
-				<li><a href="#defect">Defect</a></li>
-			</ul>
-		</li>
-  		<li><a href="#definitions">Definitions</a>
-			<ul>
-				<li><a href="#cover-file">Cover File</a></li>
-				<li><a href="#css-file">CSS file</a></li>
-    				<li><a href="#epub-file">EPUB file</a></li>
-				<li><a href="#manuscript">Manuscript</a></li>
-				<li><a href="#parts-of-a-book">Parts of a Book</a></li>
-				<li><a href="#trim-size">Trim Size</a></li>
-				<li><a href="#xhtml-file">XHTML file</a></li>
-			</ul>
-		</li>
+		<li><a href="#my-novels">My Novels</a></li>
+  		<li><a href="#definitions">Definitions</a></li>
 		<li><a href="#software">Software</a>
 			<ul>
 				<li><a href="#creation">Creation</a></li>
