@@ -299,9 +299,9 @@ In addition to the manuscript, you will need a PDF file containing the front cov
 Amazon's cover calculator website will generate a template file based on the total number of pages in your book (among other decisions like the trim size). This template file is the exact physical dimensions your cover file needs to be, and will have clearly delineated spaces for where your front cover, back cover, and spine artwork should go.
 
 ### Inserting the artwork
-Generally, I recommend using Canva for this. You can upload the template file directly to Canva and use it as a background. Then you can add your artwork right on top of it. When you are finished, you can download the PDF of your cover file (for "File Type", choose "PDF Print").
+Generally, I recommend using Canva for this. Create a new Canva design of the same physical dimensions as the template's "Overall Dimensions" and then upload the template file directly to Canva (it's easiest to upload the PNG file and then stretch it to fill out the entire space). Then you can add your artwork right on top of it. When you are finished, you can download the PDF of your cover file (for "File Type", choose "PDF Print").
 > [!IMPORTANT]
-> Once you are finished, the entire template file should be covered by artwork. None of it should be visible in the final product. To be extra safe, you can delete the template file from yoru artwork itself just to make sure there are no gaps in your artwork.
+> Once you are finished, the entire template file should be covered by artwork so that none of it is visible in the final product. To be extra safe, you can delete the template image from the Canva design to make sure there are no gaps in your artwork.
 
 ### Validating the cover file
 When you upload your physical book to Amazon, one of the steps will be to view your cover file and manuscript in their previewer. In particular, the cover file will be displayed along with guidelines that allow you to double-check that all of your artwork is within the intended bounds.
