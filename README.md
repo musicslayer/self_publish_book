@@ -346,7 +346,7 @@ If you are having trouble with spacing paragraphs, or inserting extra pages, etc
 One common reason that an e-book may fail validation is because it contains prohibited elements.
 Although some e-readers will allow you to open such an e-book, these elements may prevent you from uploading the e-book to Google or Amazon to sell.
 
-1. \<text\>
+- \<text\>
 The \<text\> element is completely prohibited everywhere. Luckily, the fix is often just to replace \<text\> with \<span\>.
 
 	Bad:
@@ -361,7 +361,7 @@ The \<text\> element is completely prohibited everywhere. Luckily, the fix is of
 	<span>ABC</span>
 	```
 
-2. \<br\>
+- \<br\>
 The \<br\> element (i.e. the \<br/\> tag) is disallowed in certain places, such as the following:
 	- As a direct child of a list.
 
