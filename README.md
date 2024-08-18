@@ -307,7 +307,7 @@ Generally, I recommend using Canva for this. You can upload the template file di
 When you upload your physical book to Amazon, one of the steps will be to view your cover file and manuscript in their previewer. In particular, the cover file will be displayed along with guidelines that allow you to double-check that all of your artwork is within the intended bounds.
 
 ### Adding a barcode
-Usually Amazon does this for us, but see the [Barcodes](barcodes-1) section for information about creating your own barcode and adding it to the cover art.
+Usually Amazon does this for us, but see the [Barcodes](#barcodes-1) section for information about creating your own barcode and adding it to the cover art.
 
 ## Barcodes
 Allowing Amazon to automatically add the barcode to the cover art for you is by far the easiest option, however there may be situations where you wish to provide your own barcode. For example, in my latest book, "Defect", the Amazon-provided barcode would have covered up the gravestone poem, so I instead opted to place the barcode on the cover art myself.
