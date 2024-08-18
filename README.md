@@ -7,15 +7,6 @@ In addition to these instructions, this repository contains a sample book that m
 Disclaimer: This guide is meant to provide general information based on my personal experiences and is not meant to serve as legal or business advice.
 
 ## Table of Contents
-[My Novels](https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels)
-[Definitions](https://github.com/musicslayer/self_publish/blob/main/README.md#definitions)<br/>
-[Software](https://github.com/musicslayer/self_publish/blob/main/README.md#software)<br/>
-[Steps to Make a Book](https://github.com/musicslayer/self_publish/blob/main/README.md#steps-to-make-a-book)<br/>
-[Barcodes](https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes)<br/>
-[Additional Tips](https://github.com/musicslayer/self_publish/blob/main/README.md#additional-tips)<br/>
-[References](https://github.com/musicslayer/self_publish/blob/main/README.md#references)
-
-
 <div id="user-content-toc">
 	<ul>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels">My Novels</a>
@@ -51,10 +42,12 @@ Disclaimer: This guide is meant to provide general information based on my perso
     				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#e-book">E-book</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#word-document">Word Document</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#pdf-file">PDF File</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#cover-file-1">Cover File</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#upload">Upload</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#copyright-protection">Copyright Protection</a></li>
 			</ul>
 		</li>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#cover-file-2">Cover File</a></li>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes-1">Barcodes</a></li>
 		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#additional-tips">Additional Tips</a></li>
 	</ul>
@@ -266,7 +259,7 @@ Create an e-book in Sigil
 	- Make sure you only use fonts that are royalty-free so you don't get sued. Fonts that come with Microsoft Word (Times New Roman, Calibri) may not be licensed for you to publish a book, so you can get in trouble!
 	
 ### Word Document
-Once the e-book is 100% finished, proofread, etc. And you are sure you won't make any other changes, then you create a Word document in Microsoft Word. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil), but you have to make some adjustments:
+Once the e-book is 100% finished, proofread, etc. And you are sure you won't make any other changes, then the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
 - You have to choose specific fonts, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
 - The Table of Contents has to have actual page numbers and not hyperlinks. This means you have to have the entire book complete before you can fill in the Table of Contents.
 - The beginning of a chapter (or a prominent section) is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
@@ -290,17 +283,17 @@ Once the e-book is 100% finished, proofread, etc. And you are sure you won't mak
 > Those will all be stored in a separate file.
 	
 ### PDF File
-Once the Word document is 100% finished, then you "print" it to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
+Once the Word document is 100% finished, then you "print" the manuscript to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
+
+### Cover File
+In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. See the section "Cover File" below for tips on creating this.
 	
 ### Upload
 Upload to Google and Amazon.
 - Google will only allow you to sell e-books, whereas Amazon can sell e-books and physical books.
 - For both e-book and physical book, Google and Amazon will ask for a description, list of subjects, price, maturity rating, etc. which you have to provide. In the description, I also copy all of the warnings from the title page here as well so people can know what to expect before they buy.
-- For the e-book, you upload the EPUB file and the front cover image.
-- For the physical book, use the cover calculator to get a template file for the outer artwork i.e. front cover, back cover, and spine. You can upload this template file right to Canva and then arrange your artwork on top of it. When that's done, you give the template file to Amazon along with the PDF.
-	
-> [!TIP]
-> All physical books will need an ISBN barcode printed on the front or back cover. If you do not wish to use the barcode Amazon provides, see the "Barcodes" section below.
+- For the e-book, you upload the EPUB file and the front cover image (PNG or JPG).
+- For the physical book, you upload the manuscript (PDF) and the cover file (PDF).
 	
 ### Copyright Protection
 (Optional) Apply for copyright protection.
@@ -310,8 +303,25 @@ Upload to Google and Amazon.
 > [!CAUTION]
 > If you obtain copyright protection, your legal name and your pseudonym will be tied together, meaning you can't stay anonymous. Anyone can look up your book and see the two names connected to each other.
 
+## Cover File
+In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. The steps below will help you create one.
+
+### Template
+Amazon's cover calculator website will generate a template file based on the total number of pages in your book (among other decisions like the trim size). This template file is the exact physical dimensions your cover file needs to be, and will have clearly delineated spaces for where your front cover, back cover, and spine artwork should go.
+
+### Inserting the artwork
+Generally, I recommend using Canva for this. You can upload the template file directly to Canva and use it as a background. Then you can add your artwork right on top of it. When you are finished, you can download the PDF of your cover file (for "File Type", choose "PDF Print").
+> [!IMPORTANT]
+> Once you are finished, the entire template file should be covered by artwork. None of it should be visible in the final product. To be extra safe, you can delete the template file from yoru artwork itself just to make sure there are no gaps in your artwork.
+
+### Validating the cover file
+When you upload your physical book to Amazon, one of the steps will be to view your cover file and manuscript in their previewer. In particular, the cover file will be displayed along with guidelines that allow you to double-check that all of your artwork is within the intended bounds.
+
+### Adding a barcode
+Usually Amazon does this for us, but see the "Barcode" section below for information about creating your own barcode and adding it to the cover art.
+
 ## Barcodes
-Allowing Amazon to automatically add the barcode for you is by far the easiest option, however there may be situations where you wish to provide your own barcode. For example, in my latest book, "Defect", the Amazon-provided barcode would have covered up the gravestone poem, so I instead opted to place the barcode on the cover art myself.
+Allowing Amazon to automatically add the barcode to the cover art for you is by far the easiest option, however there may be situations where you wish to provide your own barcode. For example, in my latest book, "Defect", the Amazon-provided barcode would have covered up the gravestone poem, so I instead opted to place the barcode on the cover art myself.
 
 Unfortunately, using your own barcode can be a complicated process. The steps below outline how you can do this without too much hassle.
 
@@ -443,7 +453,7 @@ Let's say you want to convert your Word document to a PDF with each page being 6
 Unlike with Word documents, we will not be using CutePDF Writer as there is a much easier way. Let's say you have an image, but you wish to convert it to a PDF and have it be 12in x 14in:
 1. Create a new 12in x 14in design in Canva.
 2. Upload your image and insert it into the Canva design, making sure to proportionally stretch it out to fill the entire space.
-3. Download the design as a PDF file (For "File Type", choose "PDF Print").
+3. Download the design as a PDF file (for "File Type", choose "PDF Print").
 > [!IMPORTANT]
 > This should not be used with vector images such as the barcode. This is because when you download the PDF from Canva, it will be a regular image with a fixed resolution.
 
