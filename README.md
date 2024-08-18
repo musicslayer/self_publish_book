@@ -34,6 +34,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 		<li><a href="#cover-file-2">Cover File</a></li>
 		<li><a href="#barcodes-1">Barcodes</a></li>
 		<li><a href="#additional-tips">Additional Tips</a></li>
+		<li><a href="#references">References</a></li>
 	</ul>
 </div>
 
