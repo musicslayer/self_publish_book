@@ -9,7 +9,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 ## Table of Contents
 <div id="user-content-toc">
 	<ul>
-		<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#my-novels">My Novels</a>
+		<li><a href="#my-novels">My Novels</a>
 			<ul>
 				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#finding-venus">Finding Venus</a></li>
