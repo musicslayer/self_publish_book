@@ -1,3 +1,4 @@
+[id]: https://github.com/musicslayer/self_publish/blob/main/README.md
 # How to Self-Publish a Book
 This is a compilation of the knowledge I have acquired while writing my novels and self-publishing them on Google and Amazon.
 My goal is to help those who wish to get started self-publishing an e-book and/or physical book.
@@ -9,7 +10,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 ## Table of Contents
 <div id="user-content-toc">
 	<ul>
-		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels">My Novels</a>
+		<li><a href="[id]#my-novels">My Novels</a>
 			<ul>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
 				<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#finding-venus">Finding Venus</a></li>
