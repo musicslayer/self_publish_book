@@ -80,8 +80,16 @@ A book is split into three potential parts: front matter, body, and back matter.
 - The body is your book's actual content.<br/>
 - The back matter may contain things like the Appendix and Index.<br/>
 
+### Physical Dimensions
+Image files like PNG and JPG measure width and height by pixels. This is in contrast to the physical dimensions involved in printing a real book, which is measured in inches, centimeters, etc. Any artwork involved in a physical book, such as the cover art or the barcode, will be found in PDF files sized to the correct physical dimensions.
+
 ### Trim Size
 A physical book's trim size is the width and height of the book. A common trim size is 6in by 9in.
+
+### Vector Image
+A vector image is an image that is drawn based on equations, and thus can be displayed at any resolution/zoom level and still look sharp. In contrast, a regular image is made of pixels, and when you zoom in far enough the image will look blurry because you can see the individual pixels.<br/><br/>
+For our purposes, the regular images will have PNG and JPG extensions, whereas the vector images all have PDF extensions.<br/><br/>
+Note that vector images are great for things made of simple shapes or pieces of text (like a barcode), but may not be appropriate for complicated graphics such as a typical cover image.
 
 ### XHTML file
 Within an EPUB file, these files are where all of the content is contained. For example, the Table of Contents is typically in its own XHTML file, and each section of a chapter may be its own XHTML file. Even things like a front cover image will be contained in an XHTML file. The exact way that content is divided up will depend on the nature of your book.
@@ -480,6 +488,12 @@ After a few seconds, you will see every issue enumerated and a total count of er
 
 ### Spines
 You can only customize the spine of your book if it is thick enough i.e. it has enough pages. If you are only a few pages away from the threshold, one trick is to insert blank pages at the end of the book (Amazon lets you add up to ten consecutive blank pages at the end).
+
+### Proof Copies
+Before officially publishing your book on Amazon, you may optionally order a proof copy of your book. This allows you to verify that the cover art and manuscript are correct before you start selling your book.<br/><br/>
+When comparing a proof copy to an author copy (which is the same as what the customer would get), there are a few differences to keep in mind:
+- Proof copies have a "Not for Resale" ribbon across the front cover, back cover, and spine.
+- Proof copies have their own "proof barcode" in addition to the regular barcode. This proof barcode is larger than the regular barcode and will cover it up if you are using Amazon's default barcode placement. If you are using your own barcode in a different spot, then your barcode and the proof barcode will both appear on the proof copy.
 
 ## References
 Amazon:<br/>
