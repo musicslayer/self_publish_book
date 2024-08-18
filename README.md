@@ -495,6 +495,9 @@ When comparing a proof copy to an author copy (which is the same as what the cus
 - Proof copies have a "Not for Resale" ribbon across the front cover, back cover, and spine.
 - Proof copies have their own "proof barcode" in addition to the regular barcode. This proof barcode is larger than the regular barcode and will cover it up if you are using Amazon's default barcode placement. If you are using your own barcode in a different spot, then your barcode and the proof barcode will both appear on the proof copy.
 
+### Cover art discrepancies
+According to https://kdp.amazon.com/en_US/help/topic/GUU6HFZG3BZ5GRTY your artwork may be shifted up to 0.125in. In my experience, if you order ten books, there is bound to be one where the artwork is shifted slightly from what you specified in the cover file, leaving things slightly off-center. In general, there is nothing you can really do about this.
+
 ## References
 Amazon:<br/>
 [KDP Bookshelf](https://kdp.amazon.com/en_US/bookshelf)<br/>
