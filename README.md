@@ -4,7 +4,7 @@ My goal is to help those who wish to get started self-publishing an e-book and/o
 
 In addition to these instructions, this repository contains a sample book that may be examined or used as a template for your own project.
 
-Disclaimer: This guide is meant to provide general information based on my personal experiences and is not meant to serve as legal or business advice.
+Disclaimer: This guide is meant to provide general information based on my personal experiences and is not meant to serve as legal or business advice. Some of the advice may be specific to publishing within the United States.
 
 ## Table of Contents
 <div id="user-content-toc">
@@ -60,7 +60,7 @@ For a physical book, this is a PDF file of a single image containing the front c
 Generally, you use a template that Amazon provides you to make sure everything is positioned correctly. The template depends on the total number of pages in your book (among other decisions like the trim size), so this is typically the last thing you work on.
 
 ### CSS file
-Within an EPUB file, this is a file that contains class definitions that can be quickly reused throughout your e-book. For example, you can define a class of paragraph named "direct_message" that is used anytime a character in your story sends their friend a direct message. This class can be defined to use a specific font, italics, margins, etc.
+Within an EPUB file, this is a file that contains class definitions that can be quickly reused throughout your e-book. For example, you can define a class of paragraph named "text_message" that is used anytime a character in your story sends their friend a text message. This class can be defined to use a specific font, italics, margins, etc.
 
 ### EPUB file
 An EPUB file is essentially your entire e-book. It contains a series of XHTML files which are just like the HTML files that make up websites but stricter. In addition, there may also be CSS files, fonts, images, sound recordings, etc. embedded within it as well. Just like with websites, you can use CSS, but stay away from Javascript since e-reader support is very limited/inconsistent.<br/><br/>
@@ -70,7 +70,8 @@ The individual files inside an EPUB can be extracted (for example using 7-Zip), 
 
 ### Manuscript
 For a physical book, this is everything other than the front cover, back cover, and spine. It is everything that will be printed on regular paper i.e. front matter, body, and back matter.<br/><br/>
-This should be a PDF file, although a Word document may be a useful intermediary since it is easier to edit.
+This should be a PDF file, although a Word document may be a useful intermediary since it is easier to edit.<br/><br/>
+Although e-books do not have a "manuscript" per se, you can think of the combination of XHTML files as the e-book's manuscript.
 
 ### Parts of a Book
 A book is split into three potential parts: front matter, body, and back matter. Only the body is required to be present.
@@ -82,21 +83,19 @@ A book is split into three potential parts: front matter, body, and back matter.
 A physical book's trim size is the width and height of the book. A common trim size is 6in by 9in.
 
 ### XHTML file
-Within an EPUB file, these files are where all of the content is contained. For example, the Table of Contents is typically in its own XHTML file, and each section of a chapter may be its own XHTML file. Even things like a front cover image will be contained in an XHTML file. The exact way that content is divided up will depend on the nature of your book.<br/><br/>
-Although e-books do not have a "manuscript" per se, you can think of the combination of XHTML files as the e-book's manuscript.
+Within an EPUB file, these files are where all of the content is contained. For example, the Table of Contents is typically in its own XHTML file, and each section of a chapter may be its own XHTML file. Even things like a front cover image will be contained in an XHTML file. The exact way that content is divided up will depend on the nature of your book.
 
 ## Software
 ### Creation
-The following may be useful when creating your book.
+The following software may be useful when creating your book.
 
 #### Sigil
 https://sigil-ebook.com/<br/>
-This is where you create the e-book (it will be an EPUB file).
+This is where you create the EPUB file for your e-book.
 
-#### Microsoft Word 2007
-After I am finished creating the e-book, I take the content and copy-paste it into a Word document.
-> [!IMPORTANT]
-> I've never tried more modern versions of Word or any of the free alternatives (Google Docs, Libre Office, etc.), so your mileage may vary if you don't use Word 2007.
+#### Microsoft Word
+Used to create/edit the manuscript before it gets converted to a PDF file.<br/><br/>
+Personally, I've only used Microsoft Word 2007 so your mileage may vary if you try a more modern version or any of the free alternatives (Google Docs, Libre Office, etc.).
 
 #### CutePDF Writer
 https://www.cutepdf.com/products/cutepdf/writer.asp<br/>
@@ -108,7 +107,7 @@ Used to generate a print cover template that will contain the front cover, back 
 Once this is done, you can download the template file image as a PNG and PDF.
 
 ### Validation
-The following may be useful when validating that your e-book is correct before shipping it.
+The following software may be useful when validating that your e-book is correct before distributing it.
 
 > [!IMPORTANT]
 > To validate a physical book, you can examine the PDF file, but otherwise you have to order proof copies from Amazon for the cost of printing.
@@ -122,7 +121,7 @@ https://jigsaw.w3.org/css-validator/<br/>
 Validates the e-book's CSS file.
 
 > [!IMPORTANT]
-> You can access this from within Sigil, but unfortunately it defaults to validating against an older version of CSS, which will show a lot of bogus errors. It's better to go to the website and make sure "CSS Level 3 + SVG" is selected, and then use the option that lets you manually copy/paste the CSS file's contents.
+> You can access this from within Sigil, but unfortunately it validates against an older version of CSS, which will show a lot of bogus errors. It's better to go to the website and make sure "CSS Level 3 + SVG" is selected, and then use the option that lets you manually copy/paste the CSS file's contents.
 
 #### Play Books
 Website: https://play.google.com/books<br/>
@@ -130,7 +129,7 @@ App: Download in the Play Store, or this may come on your Android device already
 Upload the EPUB file and view it directly as a customer would.
 
 #### Kindle
-Download the Kindle App to your Android or iOS device, or you can just use a Kindle device, and view your EPUB directly as a customer would.<br/>
+Download the Kindle App to your Android or iOS device, or you can just use a Kindle device, and view your EPUB directly as a customer would.<br/><br/>
 Add the EPUB file to your Kindle library here: https://www.amazon.com/sendtokindle
 
 #### Kindle Previewer
@@ -138,7 +137,7 @@ https://www.amazon.com/Kindle-Previewer/b?ie=UTF8&node=21381691011<br/>
 Install this desktop app and then you can open your e-book right inside the app. This is much quicker than using the regular Kindle app, and you can adjust the device size, orientation, font, font size, etc. to see how things look.
 
 ### Barcodes
-The following may be useful when creating your own barcodes.
+The following software may be useful when creating your own barcodes.
 
 #### ISBN
 https://www.myidentifiers.com/identify-protect-your-book/isbn/buy-isbn<br/>
@@ -225,7 +224,7 @@ Create an e-book in Sigil
 	- Any warnings (i.e. mature warning, content warning, trigger warning, etc. whatever phrase you wish to use).
 	- Any disclaimers (i.e. this book is a work of fiction, not based on any real person, etc.).
 - The Table of Contents is tricky because you have to update multiple places.
-	- There will be an actual XHTML file with your table of contents. It's basically a bunch of hyperlinks going to each chapter.
+	- There will be an actual XHTML file with your Table of Contents. It's basically a bunch of hyperlinks going to each chapter.
 	- You have to create/update "toc.ncx".
 	- As I mentioned with the front cover, inside "content.opf" there is a "guide" section at the bottom with an entry for the Table of Contents:
 		```
@@ -238,12 +237,12 @@ Create an e-book in Sigil
 		
 - Fonts:
 	- In an e-book, you MAY specify the exact font (good for things like headers, fancy titles, etc.), but for general text you typically specify a "font family" (i.e. serif, sans-serif) and then the e-reader will choose a font in that family for the user.
-	- Note that most e-readers allow the user to completely override anything you specify in the e-book. Users can view your e-book in size 44 Wingdings if they want too!
+	- Note that e-readers may allow the user to completely override anything you specify in the e-book. Users can view your e-book in size 76 Wingdings if they want too!
 	- For a physical book, you must specify the exact fonts you want for everything.
-	- Make sure you only use fonts that are royalty-free so you don't get sued. Fonts that come with Microsoft Word (Times New Roman, Calibri) may not be licensed for you to publish a book, so you can get in trouble!
+	- Make sure you only use fonts that are royalty-free so you don't get sued! Fonts that come with Microsoft Word (Times New Roman, Calibri) may not be licensed for you to publish a book, so you can get in trouble!
 	
 ### Word Document
-Once the e-book is 100% finished, proofread, etc. And you are sure you won't make any other changes, then the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
+Once the e-book is 100% finished, proofread, etc. and you are sure you won't make any other changes, then the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
 - You have to choose specific fonts, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
 - The Table of Contents has to have actual page numbers and not hyperlinks. This means you have to have the entire book complete before you can fill in the Table of Contents.
 - The beginning of a chapter (or a prominent section) is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
@@ -261,10 +260,6 @@ Once the e-book is 100% finished, proofread, etc. And you are sure you won't mak
    	  A common convention is to number these as follows:
 		- Use Arabic numerals for the body, starting with "1".
 		- Use lowercase Roman numerals for the front matter and back matter, staring with "i" and using one continuous count across both sections.
-
-> [!IMPORTANT]
-> The Word document only contains the inside of the book, and excludes the front cover, back cover, and spine.
-> Those will all be stored in a separate file.
 	
 ### PDF File
 Once the Word document is 100% finished, then you "print" the manuscript to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
@@ -275,7 +270,7 @@ In addition to the manuscript, you will need a PDF file containing the front cov
 ### Upload
 Upload to Google and Amazon.
 - Google will only allow you to sell e-books, whereas Amazon can sell e-books and physical books.
-- For both e-book and physical book, Google and Amazon will ask for a description, list of subjects, price, maturity rating, etc. which you have to provide. In the description, I also copy all of the warnings from the title page here as well so people can know what to expect before they buy.
+- For both e-books and physical books, Google and Amazon will ask for a description, list of subjects, price, maturity rating, etc. which you have to provide. In the description, I also copy all of the warnings from the title page here as well so people can know what to expect before they buy.
 - For the e-book, you upload the EPUB file and the front cover image (PNG or JPG).
 - For the physical book, you upload the manuscript (PDF) and the cover file (PDF).
 	
@@ -285,7 +280,7 @@ Upload to Google and Amazon.
 - Once you are finished applying, then after a couple of months they mail you a fancy-looking piece of paper.
 
 > [!CAUTION]
-> If you obtain copyright protection, your legal name and your pseudonym will be tied together, meaning you can't stay anonymous. Anyone can look up your book and see the two names connected to each other.
+> If you obtain copyright protection, your legal name and your pseudonym will be tied together, meaning you can't stay anonymous. Anyone can look up your book and see both names connected to each other.
 
 ## Cover File
 In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. The steps below will help you create one.
