@@ -7,13 +7,56 @@ In addition to these instructions, this repository contains a sample book that m
 Disclaimer: This guide is meant to provide general information based on my personal experiences and is not meant to serve as legal or business advice.
 
 ## Table of Contents
-[My Novels](https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels)<br/>
+[My Novels](https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels)
 [Definitions](https://github.com/musicslayer/self_publish/blob/main/README.md#definitions)<br/>
 [Software](https://github.com/musicslayer/self_publish/blob/main/README.md#software)<br/>
 [Steps to Make a Book](https://github.com/musicslayer/self_publish/blob/main/README.md#steps-to-make-a-book)<br/>
 [Barcodes](https://github.com/musicslayer/self_publish/blob/main/README.md#barcodes)<br/>
 [Additional Tips](https://github.com/musicslayer/self_publish/blob/main/README.md#additional-tips)<br/>
 [References](https://github.com/musicslayer/self_publish/blob/main/README.md#references)
+
+
+<div id="user-content-toc">
+	<ul>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#my-novels">My Novels</a>
+			<ul>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#how-to-abuse-your-employee">How to Abuse Your Employee</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#finding-venus">Finding Venus</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#defect">Defect</a></li>
+			</ul>
+		</li>
+  		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#definitions">Definitions</a>
+			<ul>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#cover-file">Cover File</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#css-file">CSS file</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#epub-file">EPUB file</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#manuscript">Manuscript</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#parts-of-a-book">Parts of a Book</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#trim-size">Trim Size</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#xhtml-file">XHTML file</a></li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#software">Software</a>
+			<ul>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#creation">Creation</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#validation">Validation</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#barcodes">Barcodes</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#other-resources">Other Resources</a></li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/musicslayer/self_publish/blob/main/README.md#steps-to-make-a-book">Steps to Make a Book</a>
+			<ul>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#pseudonym">Pseudonym</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#validation">ISBN</a></li>
+    				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#e-book">E-book</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#word-document">Word Document</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#pdf-file">PDF File</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#upload">Upload</a></li>
+				<li><a href="https://github.com/musicslayer/self_publish?tab=readme-ov-file#copyright-protection">Copyright Protection</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
 
 ## My Novels
 ### How to Abuse Your Employee
@@ -167,17 +210,20 @@ Useful tools when writing poetry.
 
 ## Steps to Make a Book
 This is a rough outline of what I do to create a book.
-### (Optional) Create a pseudonym/pen name
+### Pseudonym
+(Optional) Create a pseudonym/pen name to use in place of your real name.
 - I use M. X.
 - Google and Amazon have no restrictions on what pseudonym you pick. In fact, there is another M. X. floating around! You may wish to pick something more unique than I did...	
 - Apple does NOT let you use pseudonyms unless you can show you legally own the name, which I have no clue how to do. Otherwise, you have to publish using your full legal name. For this reason, I don't bother with Apple.
 
-### (Optional) Purchase an ISBN
+### ISBN
+(Optional) Purchase an ISBN
 - Physical books need an ISBN in order to create a barcode.
 - If you only plan to sell physical books on Amazon, you can use the free ISBN they give you, which will only work on Amazon and nowhere else.
 - If you want to sell physical books in other places as well, you have to pay for a real ISBN.
 
-### Create an e-book in Sigil
+### E-book
+Create an e-book in Sigil
 - For my e-books, this is the order of sections I generally use:
 	- Front Cover Image
 	- Title Page
@@ -217,9 +263,9 @@ This is a rough outline of what I do to create a book.
 	- For a physical book, you must specify the exact fonts you want for everything.
 	- Make sure you only use fonts that are royalty-free so you don't get sued. Fonts that come with Microsoft Word (Times New Roman, Calibri) may not be licensed for you to publish a book, so you can get in trouble!
 	
-### Create a Word document in Microsoft Word
-Once the e-book is 100% finished, proofread, etc. And you are sure you won't make any other changes, then you create a Word document in Microsoft Word. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) into the Word document, but you have to make some adjustments:
-- You have to pick fonts as I say above, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
+### Word Document
+Once the e-book is 100% finished, proofread, etc. And you are sure you won't make any other changes, then you create a Word document in Microsoft Word. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil), but you have to make some adjustments:
+- You have to choose specific fonts, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
 - The Table of Contents has to have actual page numbers and not hyperlinks. This means you have to have the entire book complete before you can fill in the Table of Contents.
 - The beginning of a chapter (or a prominent section) is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
 - You might want to manually space things so that certain content isn't split between pages.
@@ -241,10 +287,11 @@ Once the e-book is 100% finished, proofread, etc. And you are sure you won't mak
 > The Word document only contains the inside of the book, and excludes the front cover, back cover, and spine.
 > Those will all be stored in a separate file.
 	
-### Create a PDF file using CutePDF Writer
+### PDF File
 Once the Word document is 100% finished, then you "print" it to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
 	
-### Upload to Google and Amazon
+### Upload
+Upload to Google and Amazon.
 - Google will only allow you to sell e-books, whereas Amazon can sell e-books and physical books.
 - For both e-book and physical book, Google and Amazon will ask for a description, list of subjects, price, maturity rating, etc. which you have to provide. In the description, I also copy all of the warnings from the title page here as well so people can know what to expect before they buy.
 - For the e-book, you upload the EPUB file and the front cover image.
@@ -253,7 +300,8 @@ Once the Word document is 100% finished, then you "print" it to a PDF file using
 > [!TIP]
 > All physical books will need an ISBN barcode printed on the front or back cover. If you do not wish to use the barcode Amazon provides, see the "Barcodes" section below.
 	
-### (Optional) Apply for copyright protection
+### Copyright Protection
+(Optional) Apply for copyright protection.
 - In the US, any work is copyrighted the moment it is tangible, but if you ever want to sue someone (or you just want bragging rights), you need to file for copyright protection.
 - Once you are finished applying, then after a couple of months they mail you a fancy-looking piece of paper.
 
@@ -266,7 +314,7 @@ Allowing Amazon to automatically add the barcode for you is by far the easiest o
 Unfortunately, using your own barcode can be a complicated process. The steps below outline how you can do this without too much hassle.
 
 ### Getting an ISBN number
-As mentioned above, you can either purchase one yourself or use the free one Amazon provides. Either way, you will end up with a number unique to an edition of your book (for example, paperback and hardcover versions of your book will have different ISBN numbers).
+You can either purchase one yourself or use the free one Amazon provides. Either way, you will end up with a number unique to an edition of your book (for example, paperback and hardcover versions of your book will have different ISBN numbers).
 
 ### Getting an ISBN barcode
 Use the bookow website to generate a barcode image. For the price, I recommend entering 90000 ("no set price") to match what Amazon would use, or else enter your actual price. Make sure to download as a PDF so that the barcode is a vector image.
