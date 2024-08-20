@@ -51,7 +51,10 @@ https://www.amazon.com/dp/B0BHRFHDQ6 (paperback)<br/>
 https://www.amazon.com/dp/B0BHMV2LR4 (hardcover)
 
 ### Defect
-(Coming Soon)
+https://play.google.com/store/books/details?id=FTcZEQAAQBAJ (e-book)<br/>
+https://www.amazon.com/dp/B0DDJXBHZT (e-book)<br/>
+https://www.amazon.com/dp/B0DDL1F12C (paperback)<br/>
+https://www.amazon.com/dp/B0DDKVS5DT (hardcover)
 
 ## Definitions
 Here I'll define some terms that may be confusing for first-time self-publishers.
