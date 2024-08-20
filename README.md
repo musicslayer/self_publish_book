@@ -501,6 +501,9 @@ When comparing a proof copy to an author copy (which is the same as what the cus
 ### Cover art discrepancies
 According to https://kdp.amazon.com/en_US/help/topic/GUU6HFZG3BZ5GRTY your artwork may be shifted up to 0.125in. In my experience, if you order ten books, there is bound to be one where the artwork is shifted slightly from what you specified in the cover file, leaving things slightly off-center. In general, there is nothing you can really do about this.
 
+### Go to Beginning
+Amazon Kindle provides a link named "Go to beginning". It is supposed to take you to the first page after the table of contents, however this only works on books that are actually purchased. If you manually upload an e-book, then "Go to beginning" will just take you to the cover page. There is nothing you have to fix; this is just a quirk with Kindle.
+
 ## References
 Amazon:<br/>
 [KDP Bookshelf](https://kdp.amazon.com/en_US/bookshelf)<br/>
