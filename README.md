@@ -246,12 +246,14 @@ Create an e-book in Sigil
 	
 ### Word Document
 Once the e-book is finished, the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
+- Your physical pages will need a trim specified. I use 6in x 9in which is a common trim size for books that are printed by Amazon.
+	- In Word, go to the Page Layout Ribbon and click Size -> More Paper Sizes. From there, select "Custom size" and enter 6in x 9in.
+- Your physical pages will need a decent margin. I use 0.75 inches all around.
 - You have to choose specific fonts, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
 - The Table of Contents has to have actual page numbers and not hyperlinks. This means you have to have the entire book complete before you can fill in the Table of Contents.
-- The beginning of a chapter (or a prominent section) is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
+- The beginning of a chapter is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
 - You might want to manually space things so that certain content isn't split between pages.
 - Line spacing and font sizes may need to be adjusted even if the fonts are the same as the e-book.
-- Your physical pages will need a decent margin. I use 0.75 inches all around.
 - Page numbers:
 	- In Word, you can add page numbers in the footers, and there is even a way to have all the odd-numbered footers look one way, and the even-numbered footers look another. Basically, if you are holding a book open, the left-hand pages need the page number at the left edge, and the right-hand pages need the page number at the right edge.
 	- If you have to insert blank extra pages as I say above, then traditionally these pages are still counted, but the number should not be visible. To achieve this, I insert a big white rectangle shape to cover the entire page (it's safer to cover the entire page because "printing" to PDF might slightly adjust the location of the page number).
@@ -439,10 +441,9 @@ page-break-inside: avoid;
 The only "guarantee" is that when the end of one XHTML file is reached, the next XHTML file's content will begin on a new page. However, even this isn't always true because some e-readers have a "continuous" or "pageless" option where all of the content is displayed in one continuous stream without any concept of pages.
 
 ### Creating a PDF of a Word Document With Fixed Physical Dimensions
-Let's say you want to convert your Word document to a PDF with each page being 6in x 9in (this is a common trim size for books that are printed by Amazon):
-1. In Word, go to the Page Layout Ribbon, and click Size -> More Paper Sizes. From there, select "Custom size" and enter 6in x 9in.
-2. Set CutePDF Writer to use a paper size of 6in x 9in (See "Important" section below).
-3. "Print" your document as you normally would. Choose "CutePDF Writer" as your printer, and make sure "Scale to paper size" is set to "No Scaling" and "Print to file" is NOT checked.
+Let's say you have a Word document with a trim of 6in by 9in and you want to convert that to a PDF with the same trim.
+1. Set CutePDF Writer to use a paper size of 6in x 9in (See "Important" section below).
+2. "Print" your document as you normally would. Choose "CutePDF Writer" as your printer, and make sure "Scale to paper size" is set to "No Scaling" and "Print to file" is NOT checked.
 
 > [!IMPORTANT]
 > Changing the size of the PDF that CutePDF Writer will create requires a few steps:
