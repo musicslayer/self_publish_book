@@ -345,14 +345,12 @@ There are two ways of doing this:
 
 > [!IMPORTANT]
 > Amazon Kindle provides a link named "Go to beginning". There are some quirks with this feature that you should know:
-> - This only works on books that are actually purchased. If you manually upload an e-book to your Kindle library, then "Go to beginning" will just take you to the cover page.
+> - This only works on books that are actually published. If you manually upload an e-book to your Kindle library, then "Go to beginning" will just take you to the cover page.
 > - Amazon does not honor the Text semantic. Based on my experimentation, they seem to always define the beginning of your book as the first XHTML file after the XHTML file with the Table of Contents semantic.
+>
 > Because of this, I recommend either:
 > - Omitting the Text semantic entirely
 > - Defining the Text semantic to match what Amazon would choose as the beginning of your book so that readers have a consistent experience across apps.
-
-
-It is supposed to take you to the first page after the table of contents, however t
 
 ## Additional Tips
 ### Supported e-readers
