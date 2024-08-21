@@ -216,6 +216,7 @@ This is a rough outline of what I do to create a book.
 
 ### E-book
 Create an e-book in Sigil
+- I recommend using the EPUB2 format over the newer EPUB3, since EPUB2 has greater compatibility with devices.
 - For my e-books, this is the order of sections I generally use:
 	- Front Cover Image
 	- Title Page
