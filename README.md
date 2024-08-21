@@ -509,12 +509,12 @@ You can only customize the spine of your book if it is thick enough i.e. it has 
 
 ### Proof Copies
 Before officially publishing your book on Amazon, you may optionally order a proof copy of your book. This allows you to verify that the cover art and manuscript are correct before you start selling your book.<br/><br/>
-When comparing a proof copy to an author copy (which is the same as what the customer would get), there are a few differences to keep in mind:
+Unlike author copies, which are the same as what the customer would get, proof copies will have a few key differences:
 - Proof copies have a "Not for Resale" ribbon across the front cover, back cover, and spine.
-- Proof copies have their own "proof barcode" in addition to the regular barcode. This proof barcode is larger than the regular barcode and will cover it up if you are using Amazon's default barcode placement. If you are using your own barcode in a different spot, then your barcode and the proof barcode will both appear on the proof copy.
+- Proof copies have their own "proof barcode" in the default barcode position in addition to the regular barcode. This proof barcode is larger than the regular barcode and will cover it up if you are using Amazon's default barcode placement. If you are using your own barcode in a different spot, then your barcode and the proof barcode will both appear on the proof copy.
 
 ### Cover art discrepancies
-According to https://kdp.amazon.com/en_US/help/topic/GUU6HFZG3BZ5GRTY your artwork may be shifted up to 0.125in. In my experience, if you order ten books, there is bound to be one where the artwork is shifted slightly from what you specified in the cover file, leaving things slightly off-center. In general, there is nothing you can really do about this.
+According to https://kdp.amazon.com/en_US/help/topic/GUU6HFZG3BZ5GRTY your artwork may be shifted up to 0.125in. In my experience, if you order ten books, there are bound to be one or two where the artwork is shifted slightly from what you specified in the cover file, leaving things slightly off-center. In general, there is nothing you can really do about this.
 
 ## References
 Amazon:<br/>
