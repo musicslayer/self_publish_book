@@ -33,6 +33,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 		</li>
 		<li><a href="#cover-file-2">Cover File</a></li>
 		<li><a href="#barcodes-1">Barcodes</a></li>
+		<li><a href="#semantics">Semantics</a></li>
 		<li><a href="#additional-tips">Additional Tips</a></li>
 		<li><a href="#references">References</a></li>
 	</ul>
@@ -223,14 +224,8 @@ Create an e-book in Sigil
 	- Back Cover Image
 - E-books need a front-cover. There are three required steps:
 	- Have the very first XHTML file in your ebook have the front cover image.
-	- In Sigil, navigate to the "Images" folder, find the front cover image, right click it and select "Cover Image".
-	- Inside "content.opf" there is a "guide" section at the bottom with an entry for the cover:
-		```
-		<guide>
-			<reference type="toc" title="Table of Contents" href="Text/toc.xhtml"/>
-			<reference type="cover" title="Cover" href="Text/front_cover.xhtml"/>
-		</guide>
-		```	
+	- Navigate to the "Images" folder, find the front cover image, right click it and select "Cover Image".
+	- Add a semantic for the cover (see the [Semantics](#semantics) section).
 - The Title Page - I keep mine really simple and just have the bare minimum.
 	- The name of the book and the author's name, in the same font as they are on the cover (this is just a tradition, not a requirement).<br/>
 	NOTE: If your friends want signed copies of your physical books, this is often a good place to sign it!
@@ -239,13 +234,7 @@ Create an e-book in Sigil
 - The Table of Contents is tricky because you have to update multiple places.
 	- There will be an actual XHTML file with your Table of Contents. It's basically a bunch of hyperlinks going to each chapter.
 	- You have to create/update "toc.ncx".
-	- As I mentioned with the front cover, inside "content.opf" there is a "guide" section at the bottom with an entry for the Table of Contents:
-		```
-		<guide>
-			<reference type="toc" title="Table of Contents" href="Text/toc.xhtml"/>
-			<reference type="cover" title="Cover" href="Text/front_cover.xhtml"/>
-		</guide>
-		```	
+ 	- Add a semantic for the Table of Contents (see the [Semantics](#semantics) section).
 - E-books don't really have a back cover. If you want to include one, just have the last XHTML file be the back cover image. Or you can omit this and make the back cover an exclusive to people who buy the physical edition of your book.
 		
 - Fonts:
@@ -337,6 +326,33 @@ If you upload the cover art to Amazon now, the stamp will be discarded as an unp
 
 > [!CAUTION]
 > Amazon's documentation says that a requirement of barcodes is that the "image is not flattened into the main cover as a single image". Based on my experience, this instruction appears to be incorrect. I submitted a flat cover art PDF with my own barcode for "Defect" and it was accepted.
+
+## Semantics
+An e-book author can define semantics which tell e-reader apps where certain sections in your book are. Sigil allows you to define a variety of semantics, but generally I only recommend defining two or three:
+- Cover
+- Table of Contents
+- Text (See "Important" section below)
+
+There are two ways of doing this:
+- In Sigil, right click an XHTML file and choose "Add Semantics..." and then pick the semantic you wish to attach to that file.
+- Manually alter the "guide" element inside "content.opf". For example, mine looks like:
+```
+<guide>
+	<reference type="toc" title="Table of Contents" href="Text/toc.xhtml"/>
+	<reference type="cover" title="Cover" href="Text/front_cover.xhtml"/>
+</guide>
+```
+
+> [!IMPORTANT]
+> Amazon Kindle provides a link named "Go to beginning". There are some quirks with this feature that you should know:
+> - This only works on books that are actually purchased. If you manually upload an e-book to your Kindle library, then "Go to beginning" will just take you to the cover page.
+> - Amazon does not honor the Text semantic. Based on my experimentation, they seem to always define the beginning of your book as the first XHTML file after the XHTML file with the Table of Contents semantic.
+> Because of this, I recommend either:
+> - Omitting the Text semantic entirely
+> - Defining the Text semantic to match what Amazon would choose as the beginning of your book so that readers have a consistent experience across apps.
+
+
+It is supposed to take you to the first page after the table of contents, however t
 
 ## Additional Tips
 ### Supported e-readers
@@ -500,9 +516,6 @@ When comparing a proof copy to an author copy (which is the same as what the cus
 
 ### Cover art discrepancies
 According to https://kdp.amazon.com/en_US/help/topic/GUU6HFZG3BZ5GRTY your artwork may be shifted up to 0.125in. In my experience, if you order ten books, there is bound to be one where the artwork is shifted slightly from what you specified in the cover file, leaving things slightly off-center. In general, there is nothing you can really do about this.
-
-### Go to Beginning
-Amazon Kindle provides a link named "Go to beginning". It is supposed to take you to the first page after the table of contents, however this only works on books that are actually purchased. If you manually upload an e-book, then "Go to beginning" will just take you to the cover page. There is nothing you have to fix; this is just a quirk with Kindle.
 
 ## References
 Amazon:<br/>
