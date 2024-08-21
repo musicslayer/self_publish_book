@@ -71,7 +71,7 @@ Within an EPUB file, this is a file that contains class definitions that can be 
 An EPUB file is essentially your entire e-book. It contains a series of XHTML files which are just like the HTML files that make up websites but stricter. In addition, there may also be CSS files, fonts, images, sound recordings, etc. embedded within it as well. Just like with websites, you can use CSS, but stay away from Javascript since e-reader support is very limited/inconsistent.<br/><br/>
 The individual files inside an EPUB can be extracted (for example using 7-Zip), but this is usually not required. Working with these files directly in Sigil is much easier.
 > [!IMPORTANT]
-> Some marketplaces may require you to upload an image of the front cover in addition to the EPUB file, and they may consider that combination to be "your e-book". Regardless, I still consider the EPUB by itself to be the entire e-book, and I recommend having the front cover image still be included within your EPUB file so that it can stand on its own.
+> Some marketplaces may require you to upload an image of the front cover in addition to the EPUB file, and they may consider that combination to be "your e-book". Regardless, I still consider the EPUB by itself to be the entire e-book, and I recommend having the front cover image still be included within your EPUB file so that the EPUB file can stand on its own.
 
 ### Manuscript
 For a physical book, this is everything other than the front cover, back cover, and spine. It is everything that will be printed on regular paper i.e. front matter, body, and back matter.<br/><br/>
@@ -85,7 +85,7 @@ A book is split into three potential parts: front matter, body, and back matter.
 - The back matter may contain things like the Appendix and Index.<br/>
 
 ### Physical Dimensions
-Image files like PNG and JPG measure width and height by pixels. This is in contrast to the physical dimensions involved in printing a real book, which is measured in inches, centimeters, etc. Any artwork involved in a physical book, such as the cover art or the barcode, will be found in PDF files sized to the correct physical dimensions.
+Image files like PNG and JPG measure width and height by pixels. This is in contrast to the physical dimensions involved in printing a physical book, which is measured in inches, centimeters, etc. Any artwork involved in a physical book, such as the cover art or the barcode, will be found in PDF files sized to the correct physical dimensions.
 
 ### Trim Size
 A physical book's trim size is the width and height of the book. A common trim size is 6in by 9in.
@@ -234,7 +234,7 @@ Create an e-book in Sigil
 	- Any disclaimers (i.e. this book is a work of fiction, not based on any real person, etc.).
 - The Table of Contents is tricky because you have to update multiple places.
 	- There will be an actual XHTML file with your Table of Contents. It's basically a bunch of hyperlinks going to each chapter.
-	- You have to create/update "toc.ncx".
+	- You have to create/update "toc.ncx". You can copy the file from my sample e-book and alter it as needed.
  	- Add a semantic for the Table of Contents (see the [Semantics](#semantics) section).
 - E-books don't really have a back cover. If you want to include one, just have the last XHTML file be the back cover image. Or you can omit this and make the back cover an exclusive to people who buy the physical edition of your book.
 		
@@ -245,7 +245,7 @@ Create an e-book in Sigil
 	- Make sure you only use fonts that are royalty-free so you don't get sued! Fonts that come with Microsoft Word (Times New Roman, Calibri) may not be licensed for you to publish a book, so you can get in trouble!
 	
 ### Word Document
-Once the e-book is 100% finished, proofread, etc. and you are sure you won't make any other changes, then the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
+Once the e-book is finished, the next step is to create the manuscript for the physical book. You mostly copy/paste the content from the e-book (specifically the preview window in Sigil) to a Word document in Microsoft Word, but you have to make some adjustments:
 - You have to choose specific fonts, either because you didn't pick an exact font in the e-book, or sometimes certain fonts look good digitally but not in physical print.
 - The Table of Contents has to have actual page numbers and not hyperlinks. This means you have to have the entire book complete before you can fill in the Table of Contents.
 - The beginning of a chapter (or a prominent section) is traditionally on an odd-numbered page, so you might have to insert blank extra pages to make that happen.
@@ -265,7 +265,7 @@ Once the e-book is 100% finished, proofread, etc. and you are sure you won't mak
 		- Use lowercase Roman numerals for the front matter and back matter, staring with "i" and using one continuous count across both sections.
 	
 ### PDF File
-Once the Word document is 100% finished, then you "print" the manuscript to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
+Once the Word document is finished, the next step is to "print" the manuscript to a PDF file using CutePDF Writer. What you see in this PDF is EXACTLY what the reader will see when the book is printed, so make sure it is correct!
 
 ### Cover File
 In addition to the manuscript, you will need a PDF file containing the front cover, back cover, and spine artwork. See the section [Cover File](#cover-file-2) for tips on creating this.
@@ -332,7 +332,7 @@ If you upload the cover art to Amazon now, the stamp will be discarded as an unp
 An e-book author can define semantics which tell e-reader apps where certain sections in your book are. Sigil allows you to define a variety of semantics, but generally I only recommend defining two or three:
 - Cover
 - Table of Contents
-- Text (See "Important" section below)
+- Text (Optional - See "Important" section below)
 
 There are two ways of doing this:
 - In Sigil, right click an XHTML file and choose "Add Semantics..." and then pick the semantic you wish to attach to that file.
@@ -436,7 +436,7 @@ There are CSS properties that are supposed to guarantee that content in an e-boo
 break-inside: avoid;
 page-break-inside: avoid;
 ```
-The only "guarantee" is that when the end of one XHTML file is reached, the next XHTML file's content will begin on a new page. However, even this isn't always true because some e-readers have a "continuous option" where all of the content is displayed in one continuous stream without any concept of pages.
+The only "guarantee" is that when the end of one XHTML file is reached, the next XHTML file's content will begin on a new page. However, even this isn't always true because some e-readers have a "continuous" or "pageless" option where all of the content is displayed in one continuous stream without any concept of pages.
 
 ### Creating a PDF of a Word Document With Fixed Physical Dimensions
 Let's say you want to convert your Word document to a PDF with each page being 6in x 9in (this is a common trim size for books that are printed by Amazon):
