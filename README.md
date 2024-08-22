@@ -23,6 +23,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 			<ul>
 				<li><a href="#pseudonym">Pseudonym</a></li>
 				<li><a href="#isbn">ISBN</a></li>
+				<li><a href="#github">GitHub</a></li>
     				<li><a href="#e-book">E-book</a></li>
 				<li><a href="#word-document">Word Document</a></li>
 				<li><a href="#pdf-file">PDF File</a></li>
@@ -117,8 +118,12 @@ This is a virtual printer that will take a Word document and "print" it to a PDF
 
 #### Cover Calculator
 https://kdp.amazon.com/en_US/cover-calculator<br/>
-Used to generate a print cover template that will contain the front cover, back cover, and spine.
-Once this is done, you can download the template file image as a PNG and PDF.
+Used to generate a print cover template that will contain the front cover, back cover, and spine. Once this is done, you can download the template file image as a PNG and PDF.
+
+#### GitHub
+Website: https://github.com<br/>
+Desktop Client: https://github.com/apps/desktop<br/>
+I use this to back up my e-book, manuscript, and any art assets. Although typically used by software developers, I find GitHub to be a useful place to store my book-related files. This gives you peace of mind in case your computer is lost or malfunctions.
 
 ### Validation
 The following software may be useful when validating that your e-book is correct before distributing it.
@@ -213,6 +218,14 @@ This is a rough outline of what I do to create a book.
 - Physical books need an ISBN in order to create a barcode.
 - If you only plan to sell physical books on Amazon, you can use the free ISBN they give you, which will only work on Amazon and nowhere else.
 - If you want to sell physical books in other places as well, you have to pay for a real ISBN.
+
+### GitHub
+(Optional) Create a private repository on GitHub for your book. This isn't strictly necessary, but I **highly recommend** doing this.<br/><br/>
+This is something that is more familiar to software developers, however I do recommend learning how to use GitHub so you can back up changes to your manuscript or artwork. On both Windows and macOS, you can use GitHub Desktop and avoid having to mess with the command line. Also, assuming you are writing by yourself, you won't have to worry about anything advanced like pull requests or merges.<br/><br/>
+Once you have created a GitHub repository for your book, then you can periodically use the GitHub Desktop to upload, or "push", changes to the repository's main branch, in essence saving your work. This stores your files on GitHub's servers, allowing you to access them anywhere. This is particularly useful if something unfortunate happens to your computer, as you can simply download the repository to your new device and keep writing from where you last saved.
+
+> [!CAUTION]
+> The repository has to be private, otherwise anyone could just visit your repository and read your book for free!
 
 ### E-book
 Create an e-book in Sigil
