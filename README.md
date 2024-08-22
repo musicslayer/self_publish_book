@@ -23,7 +23,7 @@ Disclaimer: This guide is meant to provide general information based on my perso
 			<ul>
 				<li><a href="#pseudonym">Pseudonym</a></li>
 				<li><a href="#isbn">ISBN</a></li>
-				<li><a href="#github">GitHub</a></li>
+				<li><a href="#github-1">GitHub</a></li>
     				<li><a href="#e-book">E-book</a></li>
 				<li><a href="#word-document">Word Document</a></li>
 				<li><a href="#pdf-file">PDF File</a></li>
